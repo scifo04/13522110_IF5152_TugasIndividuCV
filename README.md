@@ -1,31 +1,5 @@
 # Tugas 1 Computer Vision IF5152
 
-Image-Processing-Overview/
-├─ README.md
-├─ requirements.txt
-├─ Scifo.jpg
-├─ 01_filtering/
-   ├─ code.py
-   ├─ gaussian_focused.py
-   ├─ output.png
-   ├─ parameter.txt
-├─ 02_edge_detection/
-   ├─ code.py
-   ├─ threshold_focused.py
-   ├─ output.png
-   ├─ parameter.txt
-├─ 03_feature_points/
-   ├─ code.py
-   ├─ output.png
-   ├─ parameter.txt
-├─ 04_camera_calibration/
-   ├─ code.py
-   ├─ skimage_to_cv.py
-   ├─ output_matrix.png
-   ├─ output_picture.png
-   ├─ parameter.txt
-└─ 05_laporan.pdf
-
 Deskripsi singkat konsep
 1. Filtering: operasi pada citra untuk mereduksi noise atau menonjolkan detail. Contoh: mean (average), Gaussian (σ sebagai kontrol blur), median (bagus untuk salt-and-pepper), bilateral (preserve edges).
 2. Edge detection: menemukan perubahan intensitas tajam — contoh Sobel, Prewitt, dan Canny. Canny umum karena pipeline smoothing → gradient → non-maximum suppression → hysteresis.
