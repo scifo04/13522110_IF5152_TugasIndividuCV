@@ -1,0 +1,21 @@
+Gambar yang digunakan:
+1. data.camera()
+2. Scifo.jpg
+
+Jenis Feature Point yang digunakan:
+1. Harris
+2. SIFT
+3. FAST
+
+Feature Counts
+1. Camera - Harris: 172 points
+2. Camera - SIFT:   791 points
+3. Camera - FAST:   89 points
+
+4. Scifo - Harris:  1220 points
+5. Scifo - SIFT:    1506 points
+6. Scifo - FAST:    190 points
+
+Sample SIFT Responses
+Camera: [0.0267 0.0399 0.0399 0.0334 0.0232 0.0232 0.0337 0.0438 0.0424 0.0183]
+Scifo : [0.0495 0.034  0.0234 0.0238 0.0145 0.0239 0.0197 0.0267 0.0151 0.0142]

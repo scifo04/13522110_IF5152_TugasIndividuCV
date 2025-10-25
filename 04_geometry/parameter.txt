@@ -1,0 +1,6 @@
+Gambar yang digunakan:
+1. data.checkerboard()
+2. Scifo.jpg
+
+Kakas kalibrasi yang digunakan:
+1. OpenCV Calibrate Camera

@@ -1,0 +1,8 @@
+Gambar yang digunakan:
+1. data.camera()
+2. Scifo.jpg
+
+Jenis Edge Detection yang digunakan:
+1. Sobel Filter (Threshold > 0.1, Sampling Square (1,1))
+2. Canny Filter (Nilai Sigma: 3)
+3. Prewitt Filter (Threshold > 0.1, Sampling Square(1,1))

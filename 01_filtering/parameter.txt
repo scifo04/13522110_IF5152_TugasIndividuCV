@@ -1,0 +1,9 @@
+Gambar yang digunakan:
+1. data.camera()
+2. Scifo.jpg
+
+Jenis Filter yang digunakan:
+1. Gaussian Filter (Nilai Sigma: 4)
+2. Median Filter (Nilai Footprint: Disk(4))
+3. Mean Filter (Nilai Footprint: Disk(4))
+4. Bilateral Filter
