@@ -7,10 +7,9 @@ from skimage_to_cv import skimage_to_cv
 
 # Define pictures and convert to cv2 compatible data
 img = [skimage_to_cv(data.camera()) for _ in range(2)]
-img_name = ['checkerboard', 'scifo']
+img_name = ['checkerboard']
 
 img[0] = skimage_to_cv(data.checkerboard())
-img[1] = skimage_to_cv(color.rgb2gray(io.imread('Scifo.jpg')))
 
 # Define pattern size
 pattern_size = (7, 7)
